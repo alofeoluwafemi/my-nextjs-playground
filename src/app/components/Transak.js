@@ -4,7 +4,7 @@ import transakSDK from "@transak/transak-sdk";
 
 export default function Transak() {
     let transak = new transakSDK({
-        apiKey: "35bd6dcb-6194-41d6-982d-b130cc6baf6e", // (Required)
+        apiKey: "", // (Required)
         environment: "STAGING", // (Required)
     });
 

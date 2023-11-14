@@ -4,7 +4,7 @@ import { getServerSession } from "next-auth/next";
 
 const { FireblocksSDK, PeerType } = require("fireblocks-sdk");
 
-const apiKey = "8def0f0c-5b4e-4421-94ad-c5cf675916ed";
+const apiKey = "";
 const baseUrl = "https://sandbox-api.fireblocks.io";
 const fireblocks = new FireblocksSDK(
     process.env.FIREBLOCKS_PRIVATE_KEY,
